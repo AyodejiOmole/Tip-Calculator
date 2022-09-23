@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="index.css"/>
+  <title>Frontend Mentor | Tip calculator app</title>
+</head>
+
+<body>
+    <img src ="images\logo.svg" alt="the logo" id="logo">
+    <div id="main">
+      <div id="right">
+        <div class="part" style="position: relative">
+          <span class="subhead">Bill</span>
+          <input type="text" name="bill" class="input" placeholder="0" id="bill"/>
+          <img src="images\icon-dollar.svg" alt="icon of a person" width="10px" height="15px" style="position: absolute; bottom: 15px; left: 10px;"/>
+        </div><!--end of part div-->
+        
+        <div class="part">
+          <span class="subhead">Select Tip %</span>
+          <div id="lower">
+            <button class="clicker" id="button1">5%</button>
+            <button class="clicker" id="button2">10%</button>
+            <button class="clicker" id="button3">15%</button>
+            <button class="clicker" id="button4">25%</button>
+            <button class="clicker" id="button5">50%</button>
+            <input type="text" name="tip" placeholder="Custom" id="tip">
+          </div><!--end of lower div-->
+        </div><!--end of part div-->
+        
+        <div class="part" style="position: relative;">
+          <span class="subhead">Number of People</span>
+          <input type="text" name="bill" class="input" placeholder="0" id="nuofpeople"/>
+          <img src="images\icon-person.svg" alt="icon of a person" width="10px" height="10px" style="position: absolute; bottom: 15px; left: 10px;"/>
+        </div><!--end of part div-->
+      </div><!--end of right div-->
+     
+      <div id="left">
+        <div class="row">
+          <div class="leftrow">
+            <span class="top">Tip Amount</span>
+            <span class="down">/ person</span>
+          </div><!--end of leftrow div-->
+          <div class="values" id="tipamount">$0.00</div>
+        </div><!--end of row div-->
+        
+        <div class="row">
+          <div class="leftrow">
+            <span class="top">Total</span>
+            <span class="down">/ person</span>
+          </div><!--end of leftrow div-->
+          <div class="values" id="total">$0.00</div>
+        </div><!--end of row div-->
+        <button id="reset">Reset</button>
+      </div><!--end of left div-->
+    </div><!--end of main div-->
+ 
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Omole Daniel Ayodeji</a>.
+  </div><!--end of attribution div-->
+  <script src="js\index.js"></script>
+</body>
+</html>

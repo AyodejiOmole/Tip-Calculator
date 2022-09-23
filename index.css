@@ -1,0 +1,167 @@
+body {
+    background-color: hsl(185, 41%, 84%);
+    font-family: 'Space Mono', sans-serif;
+}
+
+#logo {
+    margin-left: 45%;
+    margin-top: 55px;
+    margin-bottom: 30px;
+}
+
+#main {
+    width: 45%;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    height: 300px;
+    margin: auto;
+    padding: 25px;
+    justify-content: space-between;
+}
+
+#right {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#left {
+    width: 40%;
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.part {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.input {
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(189, 41%, 97%);
+    width: 85%;
+    height: 40px;
+    font-size: 24px;
+    direction:rtl;
+    padding-right: 10px;
+    box-sizing: border-box;
+    color:hsl(183, 100%, 15%);
+    font-weight: 700;
+}
+
+.clicker {
+    background-color: hsl(183, 100%, 15%);
+    border: none;
+    height: 35px;
+    width: 90px;
+    border-radius: 5px;
+    margin-right: 6px;
+    margin-bottom: 10px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 900;
+}
+
+#lower {
+    width: 90%;
+}
+
+#lower > input {
+    width: 90px;
+    height: 35px;
+    font-weight: 700;
+    border-radius: 7px;
+    color: hsl(183, 100%, 15%);
+    background-color: hsl(189, 41%, 97%);
+    border: none;
+    direction: rtl;
+}
+
+.input::selection {
+    width: 100px;
+    outline: "2px solid hsl(172, 67%, 45%)";
+}
+
+#left button {
+    width: 100%;
+    background-color: hsl(172, 67%, 45%);
+    opacity: 0.2;
+    color: hsl(183, 100%, 15%);
+    margin-top: 35px;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#left button:hover {
+    opacity: 1;
+    background-color:hsl(185, 41%, 84%);
+}
+
+.subhead {
+    font-weight: 400;
+    color: hsl(184, 14%, 56%);
+    margin-bottom: 8px;
+}
+
+input[type="text"].input::placeholder {
+    color: hsl(183, 100%, 15%);
+    font-weight: 500;
+    opacity: 0.4;
+    font-size: 15px;
+    padding-left: 10px;
+    direction: rtl;
+}
+
+input[placeholder="Custom"]::placeholder {
+    color: hsl(183, 100%, 15%);
+    font-size: 24px; 
+    text-align: center; 
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+    height: 50px;
+}
+
+.values {
+    font-size: 34px;
+    color: hsl(172, 67%, 45%);
+    font-weight: 700;
+}
+
+.leftrow {
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    color: hsl(0, 0%, 100%);
+    font-weight: 500
+}
+
+.down {
+    color: hsl(189, 41%, 97%);
+    opacity: 0.4;
+    font-size: 0.8em;
+    font-weight: 400;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+  }
+  
+  .attribution a { 
+    color: hsl(228, 45%, 44%); 
+  }
